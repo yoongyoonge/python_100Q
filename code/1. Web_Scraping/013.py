@@ -12,11 +12,9 @@ driver.implicitly_wait(3)
 
 
 #아이디/비밀번호를 입력하고 로그인하기 버튼을 누르는 작업 실행
-my_id = "dbswls0932"
-my_pw = "twentythree0912!"
 
-#my_id = "---본인 아이디 입력하세요---" # 진짜 아이디 입력
-#my_pw = "---본인 패스워드 입력하세요---" # 진짜 비밀번호 입력
+my_id = "---본인 아이디 입력하세요---" # 진짜 아이디 입력
+my_pw = "---본인 패스워드 입력하세요---" # 진짜 비밀번호 입력
 
 driver.find_element_by_id('danawa-member-login-input-id').send_keys(my_id)
 driver.implicitly_wait(2)

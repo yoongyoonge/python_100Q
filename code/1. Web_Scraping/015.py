@@ -54,7 +54,7 @@ def download_bok_statistics_by_keyword():
 
 
     #CSV 파일로 저장
-    result_file = open('./code/1. Web_Scraping/data/bok_statistics_%s.csv' % keyword, 'w')
+    result_file = open('./code/data/bok_statistics_%s.csv' % keyword, 'w')
 
     for i in range(len(date)): 
         result_file.write("%s, %s, %s" % (date[i], value[i], change[i]))

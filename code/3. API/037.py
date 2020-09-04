@@ -1,3 +1,4 @@
+# mac : python3 -m pip install --user pytrends
 # 구글 검색 트렌드 (시간)
 from pytrends.request import TrendReq
 import matplotlib.pyplot as plt 

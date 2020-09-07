@@ -71,3 +71,4 @@ plt.savefig(output_filepath, dpi=300)
 plt.show()
 
 #2020.08.13 아직 오류 해결 못함
+#2020.09.07 mac 에서 테스트 불가, 재택 종료 시 다시 테스트 요망

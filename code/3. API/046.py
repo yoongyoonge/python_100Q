@@ -1,17 +1,5 @@
 # 전체 상장기업의 지분공시자료 검색 및 다운로드
 
-import xml.etree.ElementTree as ET
-
-tree = ET.parse('./corp_num/CORPCODE.xml')
-root = tree.getroot()
-
-# stock_code로 회사 고유번호 찾기
-def find_corp_num(find_stock_num):
-    for country in root.iter("list"):
-        if country.findtext("stock_code") == find_stock_num:
-            return country.findtext("corp_code")
-
-
 # 본 코드
 import requests
 from bs4 import BeautifulSoup

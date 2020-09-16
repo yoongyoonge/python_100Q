@@ -7,7 +7,7 @@ import pandas as pd
 import datetime as dt
 
 # dart 전자공시 사이트 apt 인증 키 입력
-my_auth_key = "9e095364707184ea6fbb0ff51fb89c4bb339fe4a"
+my_auth_key = "본인의 인증키를 입력하세요"
 
 # 검색 기간 설정하기
 now = dt.datetime.now()
